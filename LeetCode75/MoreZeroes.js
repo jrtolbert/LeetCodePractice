@@ -1,5 +1,5 @@
 
-var moreZeroes = (nums) => {
+var moveZeroes = (nums) => {
     var containZeroes = []
     while (true) {
         var index = nums.indexOf(0)
@@ -21,5 +21,5 @@ var moreZeroes = (nums) => {
 
 var number = [0]
 
-moreZeroes(number)
+moveZeroes(number)
 console.log(number)
